@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'daxbold';
+    src: url('fonts/dax-bold-webfont.woff2') format('woff2'),
+         url('fonts/dax-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'daxlight';
+    src: url('fonts/dax-ligh-webfont.woff2') format('woff2'),
+         url('fonts/dax-ligh-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

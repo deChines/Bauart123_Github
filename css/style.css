@@ -1,0 +1,120 @@
+body {
+  font-family: 'daxlight';
+  font-size: 16pt;
+  width: 100vw;
+  height: 100vh;
+}
+
+.slide {
+  background-color: white;
+}
+
+.topbar {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    height: 8vh;
+    top: 0;
+    z-index: 99;
+}
+
+#navi {
+    width: 10vw;
+    background-color: white;
+    position: fixed;
+    height: 100vh;
+    right: 0;
+    z-index: 99;
+}
+
+#frame {
+    width: calc(100vw - (3*60px));
+    height:calc(100vh - (2*60px));
+    border-top: 60px solid white;
+    border-right: 120px solid white;
+    border-bottom: 60px solid white;
+    border-left: 60px solid white;
+    position: fixed;
+}
+
+.logo {
+height: 50px;
+width: 50PX;
+float: right;
+margin: 10px;
+/*background-color: #7c7e7f;
+border: 10px solid #7c7e7f;
+*/
+}
+
+ul {
+  margin: 15px;
+  padding: 0;
+}
+
+.nav li {
+    display:inline;
+    margin: 0px 10px 0px 10px;
+}
+.nav li a {
+    color: black;
+    font-family: 'daxbold';
+    font-size: 16px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    color: #ff883e;
+}
+
+img {
+  height: auto;
+  width: 90vw;
+}
+
+.section img{
+
+}
+
+.fp-controlArrow.fp-prev {
+  border-color: transparent #ff883e transparent transparent !important;
+
+}
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent #ff883e !important;
+
+}
+
+.viewport {
+    margin: 30px;
+    width: 160px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+.viewport li:nth-child(2n)   { background: #eee; }
+.viewport li:nth-child(2n+1) { background: #fff; }
+
+.menuBar {
+  display: block;
+    width: 35px;
+    height: 3px;
+    background-color: #ff883e;
+    margin: 12px 0;
+    z-index: 100;
+}
+
+
+
+.menuIcon {
+  position: fixed;
+  right:0;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#fullpage {
+  margin-left: 4vw;
+  margin-right: 10vw;
+  height: 88vh;
+  width: 85vw;
+}
