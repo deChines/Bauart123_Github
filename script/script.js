@@ -10,12 +10,13 @@ $('#fullpage').fullpage({
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
     css3: true,
-    /*afterRender: function () {
-        //on page load, start the slideshow
-         slideTimeout = setInterval(function () {
-                $.fn.fullpage.moveSlideRight();
-            }, 5000);
-    }, */
+	dragAndMove: true, // TODO gloube muesch die extension choufe süsch funktionierts nid (siehe punkt 1): https://alvarotrigo.com/fullPage/extensions/faqs.html
+	/*afterRender: function () {
+		//on page load, start the slideshow
+		 slideTimeout = setInterval(function () {
+				$.fn.fullpage.moveSlideRight();
+			}, 5000);
+	}, */
 
     onLeave: function (index, direction) {
         //after leaving section 1 (home) and going anywhere else, whether scrolling down to next section or clicking a nav link, this SHOULD stop the slideshow and allow you to navigate the site...but it does not
@@ -263,4 +264,9 @@ $(function() {
     $("input").click(function() {
         alert(this.value);
     });
+});
+
+
+$(".menuIcon").click(function() {
+    alert('TODO open the menu');
 });
