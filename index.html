@@ -8,23 +8,35 @@
     <link rel="stylesheet" type="text/css"  href="css/fonts.css">
   </head>
   <body>
-    <div class="topbar"></div>
-    <header id="navi">
-          <img class="logo" src="data/logo.png" alt="baurt_123">
-      <ul class="nav">
-        <div class="menuItem">
-          <li data-menuanchor="home"> <a href="#home">home</a>
-          </li>
+    <div class="topBar"></div>
+    <div class="bottomBar"></div>
+    <div class="leftBar"></div>
+    <div class="rightBar"></div>
+
+    <header id="nav">
+      <div class="navSection">
+        <div class="bg_pattern">
         </div>
-        <div class="menuItem">
-          <li data-menuanchor="about"><a href="#about">about</a>
-          </li>
+        <img class="logo" src="data/logo.png" alt="baurt_123">
+        <div class="navLinks">
+          <ul class="nav">
+            <div class="menuItem">
+              <li data-menuanchor="home"> <a href="#home"><div class="menuUnderline"></div>home</a>
+              </li>
+            </div>
+            <div class="menuItem">
+              <li data-menuanchor="about"><a href="#about"><div class="menuUnderline"></div>about</a>
+              </li>
+            </div>
+            <div class="menuItem">
+              <li data-menuanchor="contact"><a href="#contact"><div class="menuUnderline"></div>contact</a>
+              </li>
+            </div>
+          </ul>
         </div>
-        <div class="menuItem">
-          <li data-menuanchor="contact"><a href="#menu">contact</a>
-          </li>
-        </div>
-      </ul>
+
+      </div>
+
 
     </header>
 
@@ -53,7 +65,7 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!--<script type="text/javascript" src="script/fullpage.extensions.min.js"></script>-->  <!-- TODO -->
+    <script type="text/javascript" src="script/fullpage.extensions.min.js"></script>-->
     <script type="text/javascript" src="script/fullpage.min.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
   </body>
