@@ -4,7 +4,7 @@ $('#fullpage').fullpage({
     sectionsColor: ['#000', '#999', '#777'],
     anchors: ['home', 'about', 'contact'],
     animateAnchor: false,
-    menu: '.nav',
+    menu: '.n', /////////////////////////////////// was .nav
     paddingTop: '60px',
     verticalCentered: false,
     slidesNavigation: false,
